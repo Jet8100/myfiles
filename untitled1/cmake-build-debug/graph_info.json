@@ -1,0 +1,18 @@
+{
+ "options": [
+  [
+   "pdcurses:shared",
+   "False"
+  ],
+  [
+   "pdcurses:with_sdl",
+   "None"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}

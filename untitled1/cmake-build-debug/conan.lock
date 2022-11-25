@@ -1,0 +1,24 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "pdcurses:shared=False\npdcurses:with_sdl=None",
+    "requires": [
+     "1"
+    ],
+    "path": "..\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "pdcurses/3.9",
+    "options": "shared=False\nwith_sdl=None",
+    "package_id": "380647ce0671623523889c009c37719da33635ab",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=11.2\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}

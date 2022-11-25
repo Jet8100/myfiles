@@ -1,0 +1,6 @@
+[requires]
+pdcurses/3.9
+
+[generators]
+CMakeDeps
+CMakeToolchain

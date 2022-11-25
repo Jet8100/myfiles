@@ -1,0 +1,30 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "'debug' config",
+            "description": "'debug' configure using 'MinGW Makefiles' generator",
+            "generator": "MinGW Makefiles",
+            "cacheVariables": {
+                "CMAKE_SH": "CMAKE_SH-NOTFOUND",
+                "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
+                "CMAKE_BUILD_TYPE": "Debug"
+            },
+            "toolchainFile": "C:\\Users\\EG\\CLionProjects\\untitled1\\cmake-build-debug\\conan_toolchain.cmake",
+            "binaryDir": "C:\\Users\\EG\\CLionProjects\\untitled1\\cmake-build-debug"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug",
+            "configurePreset": "debug"
+        }
+    ],
+    "testPresets": []
+}
