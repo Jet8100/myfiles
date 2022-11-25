@@ -1,0 +1,1 @@
+ C:/Users/EG/.conan/data/pdcurses/3.9/_/_/package/380647ce0671623523889c009c37719da33635ab/lib/libpdcurses.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
